@@ -1,0 +1,32 @@
+.formBody {
+  margin-top: 20px;
+
+  background-color: #fff;
+  /* border-style: groove; */
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  box-shadow: 10px 10px 5px #8888;
+  border-radius: 20px;
+
+
+
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.book_window {
+  width: 450px;
+  margin-top: 120px;
+  position: absolute;
+  z-index: 4;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Bloom server",
+  "main": "server.js",
+  "dependencies": {
+    "argon2": "^0.26.1",
+    "aws-sdk": "^2.654.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "db-migrate-pg": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^47.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-geocoder": "^3.26.0",
+    "openid-client": "^3.12.2",
+    "package.json": "^2.0.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-openidconnect": "0.0.4",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

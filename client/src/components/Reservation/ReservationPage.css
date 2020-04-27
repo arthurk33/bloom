@@ -1,0 +1,30 @@
+.shoppingCart {
+  width: '18rem';
+  margin-top: 1.2rem;
+}
+
+.shoppingCartSmall {
+  position: fixed;
+  bottom: 0;
+}
+
+.smallText {
+  font-size: x-small;
+}
+
+.largeMarginBottom {
+  margin-bottom: 12rem;
+}
+
+.fullHeight {
+  top: 10px;
+  bottom: 20px;
+  height: 100vh;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
